@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Trip - Sua vida financeira sob controle</title>
+    <link rel="stylesheet" href="styles.css?v=10">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Cash Trip Logo" class="logo-image">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#support">Suporte</a></li>
+                    <li><a href="#trial" class="btn-primary">Teste Grátis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Conheça o Cash Trip!<br>O Seu Agente de Viagens<br>Pessoal com IA.</h1>
+                    <p>Sua viagem Planejada e confirmada em até 10 minutos, com orçamento sob controle e roteiro vivo no
+                        seu celular, tudo em um só lugar.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn-store-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                                alt="Download on the App Store">
+                        </a>
+                        <a href="#" class="btn-store-link">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                alt="Get it on Google Play">
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/iphone-16.svg" alt="App Screenshot" class="phone-mockup">
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>O que dizem sobre nós</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?img=11" alt="Rogério Silveira" class="user-avatar">
+                            <div class="user-details">
+                                <h4>Rogério Silveira</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>"Eu costumava passar mais de 20 horas a planear uma viagem de uma semana. O agente de da Cash
+                            Trip construiu e reservou uma melhor para mim em 15 minutos. Nunca mais volto atrás."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?img=13" alt="Mauro Freitas" class="user-avatar">
+                            <div class="user-details">
+                                <h4>Mauro Freitas</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>"É assustador o quão bem ele sabia do que eu ia gostar. As recomendações de restaurantes
+                            foram perfeitas, e até encontrou um hotel com um ginásio que tinha exatamente o que eu
+                            precisava."</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?img=5" alt="Anna" class="user-avatar">
+                            <div class="user-details">
+                                <h4>Anna</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>"Dei-lhe um orçamento apertado para as minhas férias em família e fiquei maravilhado com a
+                            qualidade da viagem que ele montou. Parecia uma viagem de luxo sem o preço de luxo."</p>
+                    </div>
+                </div>
+
+                <div class="testimonials-grid bottom-row">
+                    <div class="testimonial-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?img=9" alt="Giovana" class="user-avatar">
+                            <div class="user-details">
+                                <h4>Giovana</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>"Eu estava cética em deixar um agente planear a minha viagem inteira. O que me convenceu foi
+                            poder ajustar o plano. O agente sugeriu o roteiro, mas eu queria trocar o voo em classe
+                            executiva por um hotel melhor. Com apenas alguns toques, consegui fazer a alteração e foi
+                            reajustado instantaneamente todo o resto do itinerário, Isso é perfeito!"</p>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?img=24" alt="Pricyla borges" class="user-avatar">
+                            <div class="user-details">
+                                <h4>Pricyla borges</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>"Eu costumava passar mais de 20 horas a planear uma viagem de uma semana. O agente de IA do
+                            Cash Trip construiu e reservou uma melhor para mim em 15 minutos. Nunca mais volto atrás."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Diga Adeus ao estresse e indecisão do planejamento de viagens</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card card-orange">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </div>
+                        <h3>Sobrecarga de Pesquisa</h3>
+                        <p>Horas intermináveis a comparar voos e hotéis em dezenas de abas.</p>
+                    </div>
+
+                    <div class="feature-card card-orange">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                                <circle cx="12" cy="12" r="2"></circle>
+                                <path d="M6 12h.01M18 12h.01"></path>
+                            </svg>
+                        </div>
+                        <h3>Ansiedade com o orçamento</h3>
+                        <p>A preocupação constante em manter-se dentro do seu orçamento.</p>
+                    </div>
+
+                    <div class="feature-card card-orange">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </div>
+                        <h3>Fadiga de decisão</h3>
+                        <p>O stress de escolher o restaurante, a atividades ou o bairro certo.</p>
+                    </div>
+
+                    <div class="feature-card card-orange">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M22 2L11 13"></path>
+                                <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
+                            </svg>
+                        </div>
+                        <h3>Conselhos Genéricos</h3>
+                        <p>Vasculhar dicas de viagens genéricos que não correspondem ao seu estilo pessoal.</p>
+                    </div>
+                </div>
+
+                <div class="features-cta">
+                    <h3>Com a Cash Trip você poupa tempo e obtem o seu roteiro perfeito em minutos</h3>
+                    <a href="#trial" class="btn-primary btn-large">Teste Grátis</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-showcase-interactive">
+            <div class="container">
+                <div class="section-header">
+                    <h2 style="color: #ff4a1b; margin-bottom: 60px;">Uma Viagem Construída Unicamente Para Você.</h2>
+                </div>
+
+                <div class="showcase-wrapper">
+                    <div class="showcase-visual">
+                        <div class="phone-frame-wrapper">
+                            <div class="phone-slider-track" id="phone-slider-track">
+                                <img src="assets/mockup-1.svg" alt="App Screen 1" class="slide-image">
+                                <img src="assets/mockup-2.svg" alt="App Screen 2" class="slide-image">
+                                <img src="assets/mockup-3.svg" alt="App Screen 3" class="slide-image">
+                                <img src="assets/mockup-4.svg" alt="App Screen 4" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="showcase-indicators">
+                            <span class="indicator active" data-index="0"></span>
+                            <span class="indicator" data-index="1"></span>
+                            <span class="indicator" data-index="2"></span>
+                            <span class="indicator" data-index="3"></span>
+                        </div>
+                    </div>
+
+                    <div class="showcase-content">
+                        <div class="info-card active" data-index="0">
+                            <h3>Planejamento Hiper-Personalizado</h3>
+                            <p>O seu agente analisa as suas preferências desde o ambiente do hotel e gostos de
+                                restaurante até à sua rotina de estadia para criar um itinerário que parece ter sido
+                                feito por alguém que realmente o conhece.</p>
+                        </div>
+
+                        <div class="info-card" data-index="1">
+                            <h3>Experiência Máxima, Custo Mínimo</h3>
+                            <p>Defina o seu orçamento e deixe o seu agente encontrar a melhor opção. Ele aloca os fundos
+                                de forma inteligente, encontrando experiências premium aos melhores preços, garantindo
+                                que aproveita ao máximo sem desperdiçar dinheiro.</p>
+                        </div>
+
+                        <div class="info-card" data-index="2">
+                            <h3>Do Plano à Reserva num Toque.</h3>
+                            <p>Chega de fazer malabarismos com sites de reserva. Acesse a opção customizada de acordo
+                                com seus gostos, esqueça a indecisão e múltiplas abas, na Cash trip você tem sua viagem
+                                completa em minutos.</p>
+                        </div>
+
+                        <div class="info-card" data-index="3">
+                            <h3>Painel de Controlo Tudo-em-Um</h3>
+                            <p>Acesse o seu itinerário completo, organize as suas finanças de viagem e receba lembretes
+                                em tempo real, tudo num painel de controlo magnificamente organizado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Como funciona o Agente de viagens da Cash Trip?</h2>
+                </div>
+
+                <!-- Row 1: Personalização (Card Left, Text Right) -->
+                <div class="how-row">
+                    <div class="how-card">
+                        <img src="assets/card-personalizacao.svg" alt="Personalização">
+                    </div>
+                    <div class="how-text">
+                        <h3>Personalização</h3>
+                        <p>Responda as perguntas exploratórias do agente para ele te conhecer e descobrir todos os seus
+                            gostos e preferências em uma viagem.</p>
+                        <a href="#trial" class="btn-primary">Teste Grátis</a>
+                    </div>
+                </div>
+
+                <!-- Row 2: Escolha do destino (Text Left, Card Right) -->
+                <div class="how-row reverse">
+                    <div class="how-text">
+                        <h3>Escolha do destino</h3>
+                        <p>Defina seu desnito, datas, orçamento e deixe seu agente preparar o melhor para você</p>
+                        <a href="#trial" class="btn-primary">Teste Grátis</a>
+                    </div>
+                    <div class="how-card">
+                        <img src="assets/card-escolha-destino.svg" alt="Escolha do destino">
+                    </div>
+                </div>
+
+                <!-- Row 3: Reveja e Refine (Card Left, Text Right) -->
+                <div class="how-row">
+                    <div class="how-card">
+                        <img src="assets/card-reveja-refine.svg" alt="Reveja e Refine">
+                    </div>
+                    <div class="how-text">
+                        <h3>Reveja e Refine o Seu Plano Personalizado</h3>
+                        <p>Receba um itinerário completo e detalhado com voos, alojamento e atividades. Edite facilmente
+                            ou peça ajustes ao seu agente até que esteja perfeito. Você sempre no controle.</p>
+                        <a href="#trial" class="btn-primary">Teste Grátis</a>
+                    </div>
+                </div>
+
+                <!-- Row 4: Planejamento (Text Left, Card Right) -->
+                <div class="how-row reverse">
+                    <div class="how-text">
+                        <h3>Planejamento</h3>
+                        <p>Diga ao seu agente de IA o seu destino, data, orçamento e em minutos você terá o seu roteiro
+                            completo.</p>
+                        <a href="#trial" class="btn-primary">Teste Grátis</a>
+                    </div>
+                    <div class="how-card">
+                        <img src="assets/card-planejamento.svg" alt="Planejamento">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="stars">★★★★★</div>
+            </div>
+            </div>
+            <p>"Eu costumava passar mais de 20 horas a planear uma viagem de uma semana. O agente de IA do
+                Cash Trip construiu e reservou uma melhor para mim em 15 minutos. Nunca mais volto atrás."
+            </p>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Diga Adeus ao estresse e indecisão do planejamento de viagens</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card card-orange">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </div>
+                        <h3>Sobrecarga de Pesquisa</h3>
+                        <p>Horas intermináveis a comparar voos e hotéis em dezenas de abas.</p>
+                    </div>
+
+                    <div class="feature-card card-orange">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                                <circle cx="12" cy="12" r="2"></circle>
+                                <path d="M6 12h.01M18 12h.01"></path>
+                            </svg>
+                        </div>
+                        <h3>Ansiedade com o orçamento</h3>
+                        <p>A preocupação constante em manter-se dentro do seu orçamento.</p>
+                    </div>
+
+                    <div class="feature-card card-orange">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </div>
+                        <h3>Fadiga de decisão</h3>
+                        <p>O stress de escolher o restaurante, a atividades ou o bairro certo.</p>
+                    </div>
+
+                    <div class="feature-card card-orange">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M22 2L11 13"></path>
+                                <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
+                            </svg>
+                        </div>
+                        <h3>Conselhos Genéricos</h3>
+                        <p>Vasculhar dicas de viagens genéricos que não correspondem ao seu estilo pessoal.</p>
+                    </div>
+                </div>
+
+                <div class="features-cta">
+                    <h3>Com a Cash Trip você poupa tempo e obtem o seu roteiro perfeito em minutos</h3>
+                    <a href="#trial" class="btn-primary btn-large">Teste Grátis</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-showcase-interactive">
+            <div class="container">
+                <div class="section-header">
+                    <h2 style="color: #ff4a1b; margin-bottom: 60px;">Uma Viagem Construída Unicamente Para Você.</h2>
+                </div>
+
+                <div class="showcase-wrapper">
+                    <div class="showcase-visual">
+                        <div class="phone-frame-wrapper">
+                            <div class="phone-slider-track" id="phone-slider-track">
+                                <img src="assets/mockup-1.svg" alt="App Screen 1" class="slide-image">
+                                <img src="assets/mockup-2.svg" alt="App Screen 2" class="slide-image">
+                                <img src="assets/mockup-3.svg" alt="App Screen 3" class="slide-image">
+                                <img src="assets/mockup-4.svg" alt="App Screen 4" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="showcase-indicators">
+                            <span class="indicator active" data-index="0"></span>
+                            <span class="indicator" data-index="1"></span>
+                            <span class="indicator" data-index="2"></span>
+                            <span class="indicator" data-index="3"></span>
+                        </div>
+                    </div>
+
+                    <div class="showcase-content">
+                        <div class="info-card active" data-index="0">
+                            <h3>Planejamento Hiper-Personalizado</h3>
+                            <p>O seu agente analisa as suas preferências desde o ambiente do hotel e gostos de
+                                restaurante até à sua rotina de estadia para criar um itinerário que parece ter sido
+                                feito por alguém que realmente o conhece.</p>
+                        </div>
+
+                        <div class="info-card" data-index="1">
+                            <h3>Experiência Máxima, Custo Mínimo</h3>
+                            <p>Defina o seu orçamento e deixe o seu agente encontrar a melhor opção. Ele aloca os fundos
+                                de forma inteligente, encontrando experiências premium aos melhores preços, garantindo
+                                que aproveita ao máximo sem desperdiçar dinheiro.</p>
+                        </div>
+
+                        <div class="info-card" data-index="2">
+                            <h3>Do Plano à Reserva num Toque.</h3>
+                            <p>Chega de fazer malabarismos com sites de reserva. Acesse a opção customizada de acordo
+                                com seus gostos, esqueça a indecisão e múltiplas abas, na Cash trip você tem sua viagem
+                                completa em minutos.</p>
+                        </div>
+
+                        <div class="info-card" data-index="3">
+                            <h3>Painel de Controlo Tudo-em-Um</h3>
+                            <p>Acesse o seu itinerário completo, organize as suas finanças de viagem e receba lembretes
+                                em tempo real, tudo num painel de controlo magnificamente organizado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Como funciona o Agente de viagens da Cash Trip?</h2>
+                </div>
+
+                <!-- Row 1: Personalização (Card Left, Text Right) -->
+                <div class="how-row">
+                    <div class="how-card">
+                        <img src="assets/card-personalizacao.svg" alt="Personalização">
+                    </div>
+                    <div class="how-text">
+                        <h3>Personalização</h3>
+                        <p>Responda as perguntas exploratórias do agente para ele te conhecer e descobrir todos os seus
+                            gostos e preferências em uma viagem.</p>
+                        <a href="#trial" class="btn-primary">Teste Grátis</a>
+                    </div>
+                </div>
+
+                <!-- Row 2: Escolha do destino (Text Left, Card Right) -->
+                <div class="how-row reverse">
+                    <div class="how-text">
+                        <h3>Escolha do destino</h3>
+                        <p>Defina seu desnito, datas, orçamento e deixe seu agente preparar o melhor para você</p>
+                        <a href="#trial" class="btn-primary">Teste Grátis</a>
+                    </div>
+                    <div class="how-card">
+                        <img src="assets/card-escolha-destino.svg" alt="Escolha do destino">
+                    </div>
+                </div>
+
+                <!-- Row 3: Reveja e Refine (Card Left, Text Right) -->
+                <div class="how-row">
+                    <div class="how-card">
+                        <img src="assets/card-reveja-refine.svg" alt="Reveja e Refine">
+                    </div>
+                    <div class="how-text">
+                        <h3>Reveja e Refine o Seu Plano Personalizado</h3>
+                        <p>Receba um itinerário completo e detalhado com voos, alojamento e atividades. Edite facilmente
+                            ou peça ajustes ao seu agente até que esteja perfeito. Você sempre no controle.</p>
+                        <a href="#trial" class="btn-primary">Teste Grátis</a>
+                    </div>
+                </div>
+
+                <!-- Row 4: Planejamento (Text Left, Card Right) -->
+                <div class="how-row reverse">
+                    <div class="how-text">
+                        <h3>Planejamento</h3>
+                        <p>Diga ao seu agente de IA o seu destino, data, orçamento e em minutos você terá o seu roteiro
+                            completo.</p>
+                        <a href="#trial" class="btn-primary">Teste Grátis</a>
+                    </div>
+                    <div class="how-card">
+                        <img src="assets/card-planejamento.svg" alt="Planejamento">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 style="color: #fff;">Perguntas Frequentes</h2>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Como o agente faz o pagamento da minha viagem?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>O agente não processa pagamentos diretamente. Ele ajuda você a planejar e reservar sua
+                                viagem, e você realiza os pagamentos através dos métodos seguros fornecidos pelos
+                                parceiros de viagem (companhias aéreas, hotéis, etc.).</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>E se eu tiver um imprevisto e não puder mais viajar?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Você pode cancelar ou modificar sua viagem de acordo com as políticas de cancelamento dos
+                                fornecedores. O agente pode ajudá-lo a entender essas políticas e fazer as alterações
+                                necessárias.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Como funciona a reserva? Preciso confirmar tudo manualmente?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>O agente apresenta as melhores opções de voos, hotéis e atividades baseadas nas suas
+                                preferências. Você revisa o itinerário completo e, quando estiver satisfeito, pode
+                                confirmar as reservas diretamente através dos links fornecidos pelos nossos parceiros.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Posso personalizar o roteiro sugerido pelo agente?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! Você tem total controle sobre o seu itinerário. Pode solicitar alterações, trocar
+                                hotéis, modificar atividades ou ajustar o orçamento. O agente recalcula tudo
+                                instantaneamente para manter sua viagem equilibrada.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>O Cash Trip funciona para viagens internacionais?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Sim! O agente de viagens da Cash Trip planeja tanto viagens nacionais quanto
+                                internacionais. Ele considera todos os aspectos da sua viagem, incluindo voos
+                                internacionais, hospedagem, atividades locais e até dicas sobre documentação necessária.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Quanto tempo leva para o agente criar meu roteiro?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Em média, o agente cria um roteiro completo e personalizado em 10 a 15 minutos. Isso
+                                inclui pesquisa de voos, hotéis, atividades e organização do itinerário completo dentro
+                                do seu orçamento.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Existe algum custo para usar o agente de viagens?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Você pode começar com um teste grátis para experimentar todas as funcionalidades do
+                                agente. Após o período de teste, oferecemos planos acessíveis que cabem no seu bolso. O
+                                investimento vale muito a pena pelo tempo e dinheiro que você economiza no planejamento!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.svg" alt="Cash Trip" style="height: 30px;">
+                    <p>Sua vida financeira sob controle.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#">Sobre Nós</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Carreiras</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Suporte</h4>
+                        <ul>
+                            <li><a href="#">Central de Ajuda</a></li>
+                            <li><a href="#">Termos de Uso</a></li>
+                            <li><a href="#">Privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><a href="#">contato@cashtrip.com</a></li>
+                            <li><a href="#">(11) 99999-9999</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cash Trip. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
